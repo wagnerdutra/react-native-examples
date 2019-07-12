@@ -1,0 +1,16 @@
+yarn global add react-native-cli
+
+react-native init nomeProjeto
+
+Com emulador abeto e na pasta do projeto rodar -> 
+react-native run-android ou run-ios
+
+react-native start -> Transporta os arquivos js para desenlvimento
+
+react-native-start --reset-cache -> Reset o cache
+
+yarn add react-devtools ->      Criar um arquivo no diretório config com o código abaixo 
+if (__DEV__) {                  depois importar no App.js
+ require('react-devtools)       Depois adicionar o script "react-devtool": "react-devtools" 	
+}			        e executar, caso precise visualizar a arvore DOM 
+
